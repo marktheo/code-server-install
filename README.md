@@ -1,8 +1,13 @@
-# Code-server Installation Guide for Debian and Ubuntu
+# Code-server Installation Guide for Fedora
 
-**Download the installation script from source**
+**Download the installation file from source**
 ```
-curl -fsSL https://code-server.dev/install.sh | sh
+https://github.com/coder/code-server/releases/latetst/
+```
+
+**Install the downloaded file with rpm**
+```
+sudo rpm -i code-server-*-amd64.rpm
 ```
 
 <br>
