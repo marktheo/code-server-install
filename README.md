@@ -1,8 +1,20 @@
-# Code-server Installation Guide for Fedora
+# Code-server manual installation for Debian and Ubuntu
 
 **Download the installation file from source**
 ```
-https://github.com/coder/code-server/releases/latetst/
+https://github.com/coder/code-server/releases/latest/
+```
+
+**Install the downloaded file with rpm**
+```
+sudo dpkg -i code-server-*-amd64.deb
+```
+
+# Code-server manual installation for Fedora
+
+**Download the installation file from source**
+```
+https://github.com/coder/code-server/releases/latest/
 ```
 
 **Install the downloaded file with rpm**
@@ -10,7 +22,7 @@ https://github.com/coder/code-server/releases/latetst/
 sudo rpm -i code-server-*-amd64.rpm
 ```
 
-<br>
+***
 
 **Disable authentication for desktop environments**
 ```
